@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1061092910808",
+    "project_id": "medicalemer-b38a3",
+    "storage_bucket": "medicalemer-b38a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061092910808:android:10f45bee1574d4f3a299ad",
+        "android_client_info": {
+          "package_name": "com.example.home_safety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061092910808-ctqrjapf87btkd7kbjck11u33ho1qqeo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDW21OrpnAuIVUR---Xj74wU22StTSSL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061092910808-ctqrjapf87btkd7kbjck11u33ho1qqeo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
