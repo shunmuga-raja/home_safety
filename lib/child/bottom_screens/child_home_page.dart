@@ -131,7 +131,6 @@ class _homescreenState extends State<homescreen> {
                       } else {
                         String messageBody =
                             "https://www.google.com/maps/search/?api=1&query=${_curentPosition!.latitude}%2C${_curentPosition!.longitude}. $_curentAddress";
-
                         if (await _isPermissionGranted()) {
                           contactList.forEach((element) {
                             _sendSms("${element.number}",
