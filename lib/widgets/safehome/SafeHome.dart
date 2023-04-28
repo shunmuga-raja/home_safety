@@ -144,13 +144,13 @@ class _SafeHomeState extends State<SafeHome> {
                         Fluttertoast.showToast(
                             msg: "emergency contact is empty");
                       } else {
-                        //String messageBody =
-                           // "https://www.google.com/maps/search/?api=1&query=${_curentPosition!.latitude}%2C${_curentPosition!.longitude}. $_curentAddress";
+                        String messageBody =
+                            "https://www.google.com/maps/search/?api=1&query=${_curentPosition!.latitude}%2C${_curentPosition!.longitude}. $_curentAddress";
 
                         if (await _isPermissionGranted()) {
                           contactList.forEach((element) {
                             _sendSms("${element.number}",
-                                "i am in trouble $locationMessage",);
+                                "i am in trouble $messageBody",);
                           });
                         } else {
                           Fluttertoast.showToast(msg: "something wrong");
